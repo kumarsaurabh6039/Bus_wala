@@ -1,0 +1,36 @@
+<h1>India's Smartest Online Bus Booking Portal</h1>
+<h3>Kab Tak Karoge Chart Chalo Hm Karwate Hai Mulakat😜</h3>
+<div>
+
+    <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" formControlName="name">
+      </div>
+      <div>
+        <label for="password">Password:</label>
+        <input type="text" name="password" id="password" formControlName="password">
+      </div>
+      <div>
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" formControlName="age">
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" formControlName="email">
+      </div>
+      <div>
+        <label for="phone">Phone:</label>
+        <input type="text" name="phone" id="phone" formControlName="phone">
+      </div>
+      <div>
+        <label for="gender">Gender:</label>
+        <select name="gender" id="gender" formControlName="genders">
+          <option value="" disabled>Select Gender</option>
+          <option *ngFor="let gender of genders" [value]="gender">{{gender}}</option>
+        </select>
+      </div>
+      <button type="login">Login</button>
+    </form>
+  </div>
+  

@@ -1,0 +1,56 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .welcome-card {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .welcome-card h1 {
+    margin-bottom: 15px;
+    font-size: 2.2rem;
+    color: #333;
+  }
+  
+  .welcome-card p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .btn-group {
+    margin-top: 25px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .logout {
+    background-color: #dc3545;
+  }
+  
+  .logout:hover {
+    background-color: #a71d2a;
+  }
+  

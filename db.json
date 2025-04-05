@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "id": "84d6",
+      "name": "kondaiya",
+      "password": "76543321",
+      "age": 22,
+      "email": "singhsaurav95912@gmail.com",
+      "phone": "9117642473",
+      "genders": "Male"
+    },
+    {
+      "id": "be5f",
+      "name": "saurabh kumar singh",
+      "password": "76543321",
+      "age": 29,
+      "email": "singhsaurav95912@gmail.com",
+      "phone": "9392392922",
+      "genders": "Male"
+    },
+    {
+      "id": "42af",
+      "name": "ayush singh ",
+      "password": "87654321",
+      "age": 29,
+      "email": "kumarsaurabh95912@gmail.com",
+      "phone": "9117642473",
+      "genders": "Male"
+    },
+    {
+      "id": "14f5",
+      "name": "Ayush singh ",
+      "password": "12345678",
+      "age": 56,
+      "email": "kumarsaurabh95912@gmail.com",
+      "phone": "9392392922",
+      "genders": "Male"
+    },
+    {
+      "id": "dc12",
+      "name": "venkatesh ",
+      "password": "87654321",
+      "age": 35,
+      "email": "kondareddy72828@gmail.com",
+      "phone": "9392392922",
+      "genders": "Unknown"
+    },
+    {
+      "id": "0dba",
+      "name": "kondaiya",
+      "password": "76543321",
+      "age": 29,
+      "email": "kumarsaurabh95912@gmail.com",
+      "phone": "9117642473",
+      "genders": "Male"
+    }
+  ]
+}
